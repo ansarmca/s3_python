@@ -1,6 +1,6 @@
 file = open("file1.txt", "r")
 contents = file.read()
-new_contents = contents.upper()
+new_contents = contents.title()
 file.close()
 
 file = open("file1.txt", "w")
